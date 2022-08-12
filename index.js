@@ -22,7 +22,6 @@ async function run() {
       console.log('dbconnected')
 
       
-      const subnavCollection= client.db('inventory_management').collection('subnav')
       const subcatCollection= client.db('inventory_management').collection('subcat')
       const inventoryCollection= client.db('inventory_management').collection('inventory')
       const processorCollection= client.db('inventory_management').collection('processor')
